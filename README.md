@@ -9,6 +9,7 @@ While Lauren's work is a time-intensive labor of love, my Bean Art is computer g
 ![alt text](https://i.pinimg.com/564x/f5/41/33/f541334da9d879b8159f4a3841d31d71.jpg)
 
 ### My work:
+to be added...
 
 ## To-Do:
 - ~~modify code to recognize digits~~
