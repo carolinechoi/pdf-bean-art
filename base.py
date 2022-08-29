@@ -2,14 +2,14 @@ import fitz
 import random
 
 ### COLORS in rgb, 0 --> 1
-black = (0, 0, 0)
+salmon = (0.0667, 0.6196, 0.8039)
 pink = (1, 0.8, 0.8)
 lilac = (0.9, 0.8, 0.9)
 blue = (0.8, 0.9, 1)
 mint = (0.8, 1, 0.7)
 
 ### STORE COLORS IN A LIST
-colors = [black, pink, lilac, blue, mint]
+colors = [salmon, pink, lilac, blue, mint]
 
 ### CREATE EMPTY DICTIONARY & ALPHABET STRING
 values = {}
