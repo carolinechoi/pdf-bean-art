@@ -2,14 +2,14 @@ import fitz
 import random
 
 ### COLORS in rgb, 0 --> 1
-salmon = (0.0667, 0.6196, 0.8039)
-pink = (1, 0.8, 0.8)
-lilac = (0.9, 0.8, 0.9)
-blue = (0.8, 0.9, 1)
-mint = (0.8, 1, 0.7)
+salmon = (0.1176, 0.3255, 0.4000)
+pink = (0.1451, 0.4275, 0.5059)
+cream = (0.0000, 0.0588, 0.1490)
+dark_br = (0.5686, 0.7137, 0.7529)
+brown = (0.3373, 0.5843, 0.7882)
 
 ### STORE COLORS IN A LIST
-colors = [salmon, pink, lilac, blue, mint]
+colors = [salmon, pink, cream, dark_br, brown]
 
 ### CREATE EMPTY DICTIONARY & ALPHABET STRING
 values = {}
@@ -20,7 +20,7 @@ for l in alphabet:
     values[l] = colors[random.randint(0,4)]
 
 ### READ IN PDF
-doc = fitz.open("test_doc_in.pdf")
+doc = fitz.open("emrata.pdf")
 
 for page in doc:
 
@@ -36,4 +36,5 @@ for page in doc:
             circle.update()
 
 ### OUTPUT
-doc.save("test_doc_out.pdf", garbage=0, deflate=True, clean=True)
+doc.save("emrata_out.pdf", garbage=0, deflate=True, clean=True)
+
