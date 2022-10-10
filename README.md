@@ -13,7 +13,7 @@ While Lauren's work is a time-intensive labor of love, my Bean Art is computer g
 
 ## To-Do:
 - ~~modify code to recognize digits~~
+- ~~run program on more complex looking PDFs (ex: newspaper archives)~~
 - modify code to recognize standard punctuation
-- run program on more complex looking PDFs (ex: newspaper archives)
 - shorten time complexity of the algorithm
 - make a front-facing website so that it'll be easier for people to upload their PDFs
