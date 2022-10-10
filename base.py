@@ -14,10 +14,14 @@ colors = [salmon, pink, cream, dark_br, brown]
 ### CREATE EMPTY DICTIONARY & ALPHABET STRING
 values = {}
 alphabet = "abcdefghijklmnopqrstuvwxyz"
+digits = "0123456789"
 
 ### ASSIGN COLORS TO LETTERS BY RANDOMIZING 
 for l in alphabet:
     values[l] = colors[random.randint(0,4)]
+
+for n in digits:
+    values[n] = colors[random.randint(0,4)]
 
 ### READ IN PDF
 doc = fitz.open("emrata.pdf")
