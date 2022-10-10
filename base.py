@@ -2,11 +2,11 @@ import fitz
 import random
 
 ### COLORS in rgb, 0 --> 1
-salmon = (0.1176, 0.3255, 0.4000)
-pink = (0.1451, 0.4275, 0.5059)
-cream = (0.0000, 0.0588, 0.1490)
-dark_br = (0.5686, 0.7137, 0.7529)
-brown = (0.3373, 0.5843, 0.7882)
+salmon = (0.8, 0.4, 0.4)
+pink = (0.9, 0.5, 0.7)
+cream = (0.9, 0.9, 0.9)
+dark_br = (0.4, 0.1, 0.1)
+brown = (0.7, 0.5, 0)
 
 ### STORE COLORS IN A LIST
 colors = [salmon, pink, cream, dark_br, brown]
