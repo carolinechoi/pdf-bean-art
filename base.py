@@ -1,7 +1,7 @@
 import fitz
 import random
 
-### COLORS in rgb, 0 --> 1
+### COLORS in rgb, 0 --> 1 
 salmon = (0.8, 0.4, 0.4)
 pink = (0.9, 0.5, 0.7)
 cream = (0.9, 0.9, 0.9)
